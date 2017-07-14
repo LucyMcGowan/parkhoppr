@@ -43,6 +43,7 @@ get_wait_times <- function() {
   out_tbl[["wait_time"]] <- purrr::map_int(out_tbl$wait_time_lst, "postedWaitMinutes", .null = NA)
   out_tbl[["fast_pass"]] <- purrr::map_lgl(out_tbl$wait_time_lst, c("fastPass", "available"))
 
+  out_tbl <- out_tbl[ , c(1, 6, 7, 4, 5, 3, 2)]
   return(out_tbl)
 }
 
