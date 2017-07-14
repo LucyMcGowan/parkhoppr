@@ -33,3 +33,6 @@ There is currently just one function - you can get wait times for rides at Magic
 library("parkhoppr")
 get_wait_times()
 ```
+
+
+*Shout out to the [themeparks](https://github.com/cubehouse/themeparks) library that inspired this little jaunt!*

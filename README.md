@@ -39,3 +39,5 @@ get_wait_times()
 #> # ... with 68 more rows, and 4 more variables: status <chr>,
 #> #   single_rider <lgl>, type <chr>, wait_time_lst <list>
 ```
+
+*Shout out to the [themeparks](https://github.com/cubehouse/themeparks) library that inspired this little jaunt!*
