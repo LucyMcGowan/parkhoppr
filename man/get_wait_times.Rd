@@ -35,6 +35,10 @@ Get Disney World wait times.
 }
 \examples{
 \dontrun{
-get_wait_times()
+## Get a tibble of Epcot wait times
+get_wait_times(park = "epcot")
+
+## Get a tibble of Hollywood Studios wait times
+get_wait_times(park = "hollywood_studios")
 }
 }
