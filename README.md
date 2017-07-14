@@ -3,6 +3,8 @@
 parkhoppr
 =========
 
+[![Travis-CI Build Status](https://travis-ci.org/LucyMcGowan/parkhoppr.svg?branch=master)](https://travis-ci.org/LucyMcGowan/parkhoppr)
+
 The goal of parkhoppr is to allow access to Disney World wait times.
 
 Installation
@@ -33,11 +35,11 @@ get_wait_times()
 #>  3     Walt Disney World Railroad - Frontierland        NA     FALSE
 #>  4             Walt Disney's Enchanted Tiki Room        NA     FALSE
 #>  5                Sorcerers of the Magic Kingdom        NA     FALSE
-#>  6                               The Barnstormer        25      TRUE
+#>  6                               The Barnstormer        35      TRUE
 #>  7      Walt Disney World Railroad - Fantasyland        NA     FALSE
 #>  8             Casey Jr. Splash 'N' Soak Station        NA     FALSE
 #>  9                             Cinderella Castle        NA     FALSE
-#> 10 Under the Sea - Journey of The Little Mermaid        20      TRUE
+#> 10 Under the Sea - Journey of The Little Mermaid        10      TRUE
 #> # ... with 68 more rows, and 4 more variables: status <chr>,
 #> #   single_rider <lgl>, type <chr>, wait_time_lst <list>
 ```
