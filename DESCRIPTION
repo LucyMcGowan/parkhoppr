@@ -7,8 +7,11 @@ Depends: R (>= 3.3.3)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1
 Imports: httr,
     tibble,
     glue,
     purrr
+URL: https://github.com/LucyMcGowan/parkhoppr
+BugReports: https://github.com/LucyMcGowan/parkhoppr/issues
