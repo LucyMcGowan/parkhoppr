@@ -1,0 +1,10 @@
+Package: parkhoppr
+Title: API for accessing Disney World wait times.
+Version: 0.0.0.9000
+Authors@R: person("Lucy", "D'Agostino McGowan", email = "lucydagostino@gmail.com", role = c("aut", "cre"))
+Description: API for accessing Disney World wait times.
+Depends: R (>= 3.3.3)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
