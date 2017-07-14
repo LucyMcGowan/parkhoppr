@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# parkhoppr
+
+The goal of parkhoppr is to allow access to Disney World wait times.
+
+## Installation
+
+You can install parkhoppr from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("LucyMcGowan/parkhoppr")
+```
+
+## Example
+
+There is currently just one function - you can get wait times for rides at Magic Kingdom. More to come very soon!
+
+```{r example}
+library("parkhoppr")
+get_wait_times()
+```
